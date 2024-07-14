@@ -5,6 +5,7 @@ import { fetchQuiz,
   postAnswer } from '../state/action-creators';
 
 const Quiz = (props) => {
+
   useEffect(() => {
     if (!props.quiz)
     {
